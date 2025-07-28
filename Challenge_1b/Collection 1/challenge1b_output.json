@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities",
+      "South of France - Cuisine",
+      "South of France - History",
+      "South of France - Restaurants and Hotels",
+      "South of France - Things to Do",
+      "South of France - Tips and Tricks",
+      "South of France - Traditions and Culture"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "processing_timestamp": "2025-07-28T22:57:40.320281"
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Tips and Tricks",
+      "section_title": "City Exploration",
+      "importance_rank": 1,
+      "page_number": 7
+    },
+    {
+      "document": "South of France - Things to Do",
+      "section_title": "Hiking and Biking",
+      "importance_rank": 2,
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Cities",
+      "section_title": "Travel Tips",
+      "importance_rank": 3,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Restaurants and Hotels",
+      "section_title": "Budget-Friendly Hotels",
+      "importance_rank": 4,
+      "page_number": 8
+    },
+    {
+      "document": "South of France - History",
+      "section_title": "Key Historical Sites in Aix-en-Provence",
+      "importance_rank": 5,
+      "page_number": 9
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Tips and Tricks",
+      "refined_text": "\u2022 Day Bag: A small, secure day bag for carrying essentials like water, snacks, and a camera.",
+      "page_number": 7
+    },
+    {
+      "document": "South of France - Things to Do",
+      "refined_text": "\u2022 Verdon Gorge : Known as the \"Grand Canyon of Europe,\" o\ufb00ering spectacular hiking trails.",
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Cities",
+      "refined_text": "\u2022 Best Time to Visit : The best time to visit the South of France is during the spring (April to June) and fall (September to October) when the weather is pleasant, and the tourist crowds are smaller.",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Restaurants and Hotels",
+      "refined_text": "\u2022 Ibis Budget Nice Californie Lenval (Nice): A budget-friendly hotel o\ufb00ering comfortable rooms and easy access to the beach and city center.",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - History",
+      "refined_text": "\u2022 Cours Mirabeau: This grand boulevard, lined with plane trees, cafes, and fountains, is the heart of Aix-en-Provence.",
+      "page_number": 9
+    }
+  ]
+}
