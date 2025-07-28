@@ -36,6 +36,23 @@ Delivers highly targeted and relevant information snippets, minimizing noise and
 
 ---
 
+### Model Requirement for Docker Build
+
+When building the Docker image, make sure the required model file is present in the correct location:
+models/
+
+This model is necessary for the application to function. We use the **Gemma-1B.Q4_K_M.gguf** model — a 1B parameter, 4-bit quantized GGUF version of Google's Gemma LLM.
+
+####  To include it in your Docker image:
+
+1. Place the GGUF model file inside the `models/` directory.
+2. Modify your `Dockerfile` to include the following line:
+
+```dockerfile
+COPY models/Gemma-1B.Q4_K_M.gguf /app/models/Gemma-1B.Q4_K_M.gguf
+```
+
+
 ##  Quick Start
 
 Follow these steps to get the PDF Intelligence Pipeline up and running on your system.
